@@ -33,5 +33,8 @@ export default {
             background-blend-mode: overlay;
             height: 500px;
         }
+        .topBannerText{ 
+            height: 500px;
+        }
     }
 </style>
