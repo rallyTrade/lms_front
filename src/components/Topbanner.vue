@@ -20,7 +20,7 @@
     <div class="container py-2">
         <p class="py-2">
             This program is powered by the <strong>Human Resource Management</strong> with the vision of empowering
-            rally staffs, explore available courses and get started.<br>
+            rally staffs, explore available courses and get started. 
             Please note, there will be certification of completion on all the courses.
         </p>
     </div>
