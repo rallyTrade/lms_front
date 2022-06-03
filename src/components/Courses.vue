@@ -92,6 +92,11 @@
         height: 350px;
     }
 
+    @media (min-width: 1366px) {
+        .mc{ 
+            height: 380px;
+        }
+    }
     @media (min-width:768px) {
         .cg {
             float: left;
