@@ -7,6 +7,7 @@
             </div>
             <div class="login-form float-none float-md-start">
                 <form action="" class="p-4">
+                    <h4>{{ testMsg }}</h4>
                     <div class="form-group">
                         <label for=""></label>
                         <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId"
@@ -17,7 +18,8 @@
                         <label for=""></label>
                         <input type="password" class="form-control" name="" id="" placeholder="">
                         <small id="passwordHelpId" class="form-text text-muted">Password</small>
-                        <i><a class="forgetPass text-decoration-none mx-2" href="#">forget password</a></i>
+                        <i><a class="forgetPass text-decoration-none mx-2" href="#/forgotpassword">forget
+                                password</a></i>
                     </div>
                     <button type="submit" class="btn btn-primary w-100 mt-2">Login</button>
                 </form>
@@ -32,7 +34,13 @@ import Navigation from '../components/Navigation.vue'
 export default {
     components: {
         Navigation
-    }
+    },
+    data() {
+        return {
+            leftImg: '../assets/topbanner.jpg'
+        }
+    },
+    
 }
 </script>
 <style>

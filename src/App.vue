@@ -5,11 +5,15 @@
 <script>
 import HomePage from './components/HomePage.vue';
 import Login from './components/Login.vue';
-import NotFound from './components/NotFound.vue'
+import ForgetPassword from './components/forms/ForgetPassword.vue';
+import NewPassword from './components/forms/NewPassword.vue';
+import NotFound from './components/NotFound.vue';
 
 const routes = {
   '/':HomePage,
-  '/login':Login
+  '/login':Login,
+  '/forgotpassword':ForgetPassword,
+  '/newpassword':NewPassword
 }
 
 export default {

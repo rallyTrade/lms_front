@@ -23,6 +23,10 @@ export default {
 }
 </script>
 <style>
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
     .navbar-brand img{ 
         width: 150px;
     }
