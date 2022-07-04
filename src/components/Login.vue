@@ -52,7 +52,7 @@ export default {
     color: #ff4000;
     font-size: x-small;
  }
- .form-control:focus, btn:focus{
+ .form-control:focus, btn:focus, .form-select:focus, .form-select > option:focus{
     outline: none;
     box-shadow: none;
  }

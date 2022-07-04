@@ -1,7 +1,7 @@
 <template>
     <div class="delete-wrap">
         <form action="" class="delete-forgot-form mx-auto">
-            <h4>Delete Staff Account</h4>
+            <h4 class="text-center">Delete Staff Account</h4>
             <select class="form-select mb-2" aria-label="Default select example">
                 <option selected>Select Staff</option>
                 <option value="1">FRNG/2021/001</option>
