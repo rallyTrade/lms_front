@@ -1,14 +1,31 @@
 <template>
     <div>
-        <div class="leftNavbar position-fixed float-start px-4">
-            <div class="w-75 mx-auto my-4">
-                <img src="../assets/logo.svg">
+        <div class="container-fluid bg-dark">
+            <div class="container">
+                <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+                    <a class="navbar-brand" href="#">
+                        <img src="../assets/logo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item text-white">
+                                <a class="nav-link text-white" href="#/staff">Create Account</a>
+                            </li>
+                            <li class="nav-item text-white">
+                                <a class="nav-link text-white" href="#/new-video">Upload Video</a>
+                            </li>
+                            <li class="nav-item text-white">
+                                <a class="nav-link text-white" href="#/delete-staff">Delete Account</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-            <ul>
-                <a href="#/staff" class="text-decoration-none"><li class="text-white py-2">Account</li></a>
-                <a href="#/coursePg" class="text-decoration-none"><li class="text-white py-2">Course</li></a>
-                <a href="#/quiz" class="text-decoration-none"><li class="text-white py-2">Quiz</li></a>
-            </ul>
         </div>
     </div>
 </template>
@@ -34,13 +51,6 @@ export default {
     }
 
     @media (min-width: 768px) {
-        .leftNavbar{
-            width: 25%;
-            height: 768px;
-            background: #666;
-        }
-        .main-dash{
-            width: 75%;
-        }
+        
     }
 </style>

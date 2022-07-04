@@ -11,6 +11,7 @@ import NotFound from './components/NotFound.vue';
 import AdminDashboard from './components/AdminDashboard.vue';
 import StaffAccount from './components/StaffAccount.vue';
 import LessonVideo from './components/LessonVideo.vue';
+import DeleteAccount from './components/DeleteAccount.vue'
 
 const routes = {
   '/':HomePage,
@@ -19,7 +20,8 @@ const routes = {
   '/newpassword':NewPassword,
   '/admin':AdminDashboard,
   '/staff':StaffAccount,
-  '/new-video':LessonVideo
+  '/new-video':LessonVideo,
+  '/delete-staff':DeleteAccount
 }
 
 export default {
