@@ -8,12 +8,18 @@ import Login from './components/Login.vue';
 import ForgetPassword from './components/forms/ForgetPassword.vue';
 import NewPassword from './components/forms/NewPassword.vue';
 import NotFound from './components/NotFound.vue';
+import AdminDashboard from './components/AdminDashboard.vue';
+import StaffAccount from './components/StaffAccount.vue';
+import LessonVideo from './components/LessonVideo.vue';
 
 const routes = {
   '/':HomePage,
   '/login':Login,
   '/forgotpassword':ForgetPassword,
-  '/newpassword':NewPassword
+  '/newpassword':NewPassword,
+  '/admin':AdminDashboard,
+  '/staff':StaffAccount,
+  '/new-video':LessonVideo
 }
 
 export default {

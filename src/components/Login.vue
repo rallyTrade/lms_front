@@ -7,7 +7,6 @@
             </div>
             <div class="login-form float-none float-md-start">
                 <form action="" class="p-4">
-                    <h4>{{ testMsg }}</h4>
                     <div class="form-group">
                         <label for=""></label>
                         <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId"
@@ -37,7 +36,7 @@ export default {
     },
     data() {
         return {
-            leftImg: '../assets/topbanner.jpg'
+            
         }
     },
     
