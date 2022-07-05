@@ -27,30 +27,116 @@
                 </nav>
             </div>
         </div>
+
+        <div class="container ad-card">
+            <div class="card-list m-2 m-md-4 float-start shadow-sm rounded text-center">
+                <div class="card-list-img">
+                    <img src="../assets/create-acct.png" alt="" class="w-100">
+                </div>
+                <div class="ad-card-title">
+                    <h5 class="fw-bold text-uppercase">Create New Account</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+                <a href="#/staff" class="text-decoration-none bg-blue p-2 text-white" style="background: blue; border-radius: 5px;">Create
+                    Account</a>
+            </div>
+            <div class="card-list m-2 m-md-4 float-start shadow-sm rounded text-center">
+                <div class="card-list-img">
+                    <img src="../assets/upload-res.png" alt="" class="w-100">
+                </div>
+                <div class="ad-card-title">
+                    <h5 class="fw-bold text-uppercase">upload new resource</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+                <a href="#/new-video" class="text-decoration-none bg-blue p-2 text-white"
+                    style="background: blue; border-radius: 5px;">Upload Resource</a>
+            </div>
+            <div class="card-list m-2 m-md-4 float-start shadow-sm rounded text-center">
+                <div class="card-list-img">
+                    <img src="../assets/delete-staff.png" alt="" class="w-100">
+                </div>
+                <div class="ad-card-title">
+                    <h5 class="fw-bold text-uppercase">Delete staff account</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+                <a href="#/delete-staff" class="text-decoration-none bg-blue p-2 text-white"
+                    style="background: blue; border-radius: 5px;">Delete Account</a>
+            </div>
+            <div class="card-list m-2 m-md-4 float-start shadow-sm rounded text-center">
+                <div class="card-list-img">
+                    <img src="../assets/update-acct.png" alt="" class="w-100">
+                </div>
+                <div class="ad-card-title">
+                    <h5 class="fw-bold text-uppercase">Update staff account</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+                <a href="#/update-staff" class="text-decoration-none bg-blue p-2 text-white"
+                    style="background: blue; border-radius: 5px;">Update Account</a>
+            </div>
+            <div class="card-list m-2 m-md-4 float-start shadow-sm rounded text-center">
+                <div class="card-list-img">
+                    <img src="../assets/staff-list.png" alt="" class="w-100">
+                </div>
+                <div class="ad-card-title">
+                    <h5 class="fw-bold text-uppercase">staff list</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+                <a href="#/view-staff" class="text-decoration-none bg-blue p-2 text-white"
+                    style="background: blue; border-radius: 5px;">View Account</a>
+            </div>
+        </div>
+
     </div>
 </template>
 <script>
+    export default {
+        data() {
+            return {
+                "card-title": "Create Staff Account"
+            }
+        },
+        components: {
 
-export default {
-    data() {
-        return {
-            
         }
-    },
-    components: {
-
     }
-}
 </script>
 <style>
-    li{
+.ad-card {
+    padding-top: 5%;
+}
+
+    li {
         list-style: none;
     }
-    .card-title{
-        font-size: medium;
+        .card-list{
+            height: 260px;
+        }
+@media (min-width: 768px) {
+    .card-list {
+        width: 40%;
+        height: 260px;
     }
-
-    @media (min-width: 768px) {
-        
+        .navbar-nav {
+            margin-left: auto;
+        }
+}
+    @media (min-width: 1024px) {
+        .navbar-nav{
+            margin-left: auto;
+        }
+        .card-list {
+            width: 28%;
+            height: 300px;
+        }
     }
 </style>
