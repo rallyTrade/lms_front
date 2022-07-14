@@ -8,7 +8,7 @@
 <script>
     import Navigation from '../components/Navigation.vue';
     import Topbanner from '../components/Topbanner.vue';
-    import Courses from '../components/Courses.vue';
+    import Courses from './secondary/Courses.vue';
     import Footer from '../components/Footer.vue'
 
     export default {
