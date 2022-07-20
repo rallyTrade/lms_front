@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <menu class="bg-dark container-fluid m-0">
         <nav class="navbar navbar-expand-sm navbar-light bg-dark container">
             <a class="navbar-brand" href="#">
@@ -30,4 +30,4 @@ export default {
     .navbar-brand img{ 
         width: 150px;
     }
-</style>
+</style> -->

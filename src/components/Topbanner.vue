@@ -1,5 +1,6 @@
 <template>
-    <div class="container-fluid topBanner w-100">
+<div>
+        <!-- <div class="container-fluid topBanner w-100">
         <div class="container">
             <div
                 class="col-12 col-md-6 topBannerText d-flex d-md-flex align-items-center animate__animated animate__backInLeft">
@@ -23,7 +24,9 @@
             rally staffs, explore available courses and get started.
             Please note, there will be certification of completion on all the courses.
         </p>
-    </div>
+    </div> -->
+</div>
+
 </template>
 <script>
     export default {
